@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - main  # Replace 'main' with your default branch name if different
+
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - name: Check Node.js version
+        run: node --version
+
+      - name: Check npm version
+        run: npm --version
