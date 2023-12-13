@@ -7,7 +7,7 @@ jobs:
   first-job:
     runs-on: windows-latest
     steps:
-      - name: Check new Node.js version
+      - name: Check Node.js version
         run: node --version
 
       - name: Check npm version
