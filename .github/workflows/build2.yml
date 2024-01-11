@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main  # Replace 'main' with your default branch name if different
+  workflow_dispatch:
 
 jobs:
   first-job:
